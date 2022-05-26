@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".venue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/anu"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="@color/holo"
+            android:id="@+id/collegeee"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/free"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button"
+            android:text="Free venue"
+            android:textAllCaps="false" />
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:queryHint="All venue" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:id="@+id/recycler"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

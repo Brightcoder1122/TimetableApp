@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <string name="app_name">Udom_TimeTable</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="list_college">
+        <item>-- Choose college--</item>
+        <item>COED</item>
+        <item>CIVE</item>
+        <item>SOCIAL</item>
+        <item>HUMANITY</item>
+        <item>COES</item>
+        <item>CNMS</item>
+        <item>TIBA</item>
+    </string-array>
+</resources>

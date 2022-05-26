@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_collage"
+            android:icon="@drawable/ic_collage"
+            android:title="Collage" />
+        <item
+            android:id="@+id/nav_lecture"
+            android:icon="@drawable/ic_lecture"
+            android:title="Lecture" />
+        <item
+            android:id="@+id/nav_venue"
+            android:icon="@drawable/ic_baseline_class_24"
+            android:title="Venue" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/ic_baseline_sync_24"
+            android:title="Sync" />
+    </group>
+
+</menu>

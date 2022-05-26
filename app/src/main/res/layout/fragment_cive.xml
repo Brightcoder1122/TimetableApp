@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="479dp"
+    android:layout_marginTop="150dp"
+    android:orientation="vertical"
+    android:id="@+id/mycive"
+    android:paddingLeft="12dp"
+    tools:context=".Cive">
+
+    <Button
+        android:id="@+id/se"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-SE"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/cs"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-53dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-CS"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/his"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-HIS"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/is"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-53dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-IS"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/cnise"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-CNISE"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bis"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-53dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-BIS"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/mta"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-MTA"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/ce"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-53dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-CE"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/te"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@color/button"
+        android:text="BSc-TE"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/idit"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-53dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-IDIT"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/cyber"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/button"
+        android:backgroundTintMode="add"
+        android:text="BSc-CYBER SECURITY"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

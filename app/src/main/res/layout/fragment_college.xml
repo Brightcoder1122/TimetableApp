@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/lote"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:visibility="visible"
+    tools:context=".college">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:text="University of Dodoma colleges"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="479dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        >
+  </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="150dp"
+        android:text="Programmes"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+</FrameLayout>
